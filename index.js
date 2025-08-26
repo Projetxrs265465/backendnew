@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 // Middlewares
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://cloackingv2-c37x.vercel.app'] // ✅ domínio correto do Vercel
+    ? ['https://cloackingv2-c37x.vercel.app', 'https://onlysystem.online'] // ✅ domínio correto do Vercel
     : ['http://localhost:4200', 'http://localhost:3000'],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
