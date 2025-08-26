@@ -9,10 +9,13 @@ const PORT = process.env.PORT || 3000;
 // Middlewares
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://your-frontend-domain.com'] // Substitua pelo seu domínio do frontend
+    ? ['https://cloackingv2-c37x.vercel.app'] // ✅ domínio correto do Vercel
     : ['http://localhost:4200', 'http://localhost:3000'],
-  credentials: true
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
 }));
+
 app.use(express.json());
 
 // Serve static files in production
