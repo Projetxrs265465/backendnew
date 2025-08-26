@@ -1,0 +1,33 @@
+{
+  "name": "redirectflow-api",
+  "version": "1.0.0",
+  "description": "API do Sistema RedirectFlow - Redirecionamento Inteligente",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redirect",
+    "api",
+    "nodejs",
+    "express",
+    "supabase"
+  ],
+  "author": "RedirectFlow Team",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
