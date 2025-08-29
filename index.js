@@ -20,7 +20,8 @@ app.use(cors({
         'https://www.allowsera.site',
         'www.bxycentrals.fun',
         'https://bxycentrals.fun',
-        'https://ts.gastointeligente.fun/'
+        'https://ts.gastointeligente.fun',
+        'https://blog.bxycentrals.fun'
       ]
     : ['http://localhost:4200', 'http://localhost:3000'],
   credentials: true,
