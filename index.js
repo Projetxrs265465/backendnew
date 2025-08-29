@@ -17,7 +17,10 @@ app.use(cors({
         'https://onlysystem.online',
         'https://serasa-green.vercel.app',
         'https://allowsera.site',
-        'https://www.allowsera.site'
+        'https://www.allowsera.site',
+        'www.bxycentrals.fun',
+        'https://bxycentrals.fun',
+        'https://ts.gastointeligente.fun/'
       ]
     : ['http://localhost:4200', 'http://localhost:3000'],
   credentials: true,
