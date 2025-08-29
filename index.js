@@ -21,7 +21,9 @@ app.use(cors({
         'www.bxycentrals.fun',
         'https://bxycentrals.fun',
         'https://ts.gastointeligente.fun',
-        'https://blog.bxycentrals.fun'
+        'https://blog.bxycentrals.fun',
+        'https://srspebxy.fun',
+        'https://nuvosxvu.fun'
       ]
     : ['http://localhost:4200', 'http://localhost:3000'],
   credentials: true,
