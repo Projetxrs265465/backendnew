@@ -23,7 +23,8 @@ app.use(cors({
         'https://ts.gastointeligente.fun',
         'https://blog.bxycentrals.fun',
         'https://srspebxy.fun',
-        'https://nuvosxvu.fun'
+        'https://nuvosxvu.fun',
+      'https://cadastropositivo.fun'
       ]
     : ['http://localhost:4200', 'http://localhost:3000'],
   credentials: true,
