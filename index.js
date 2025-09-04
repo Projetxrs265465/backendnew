@@ -24,7 +24,9 @@ app.use(cors({
         'https://blog.bxycentrals.fun',
         'https://srspebxy.fun',
         'https://nuvosxvu.fun',
-      'https://cadastropositivo.fun'
+      'https://cadastropositivo.fun',
+      'https://oonlyfanscash.fun',
+      'https://white.oonlyfanscash.fun'
       ]
     : ['http://localhost:4200', 'http://localhost:3000'],
   credentials: true,
